@@ -69,7 +69,7 @@ export default {
     },
     methods: {
         async submitForm() {
-            const apiUrl = 'http://localhost:5221/api/BookRecommendations';
+            const apiUrl = 'https://moodbook.azurewebsites.net/api/BookRecommendations';
 
             try {
                 const response = await fetch(apiUrl, {
