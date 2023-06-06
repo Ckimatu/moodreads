@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white mt-20 mb-30 rounded-lg shadow dark:bg-black">
+  <div class="bg-black mt-20 mb-30 rounded-lg shadow dark:bg-black">
     <h1 class="text-4xl mt-10 py-10 text-center font-bold text-gray-900 dark:text-white">
       Your Book Recommendations
     </h1>
