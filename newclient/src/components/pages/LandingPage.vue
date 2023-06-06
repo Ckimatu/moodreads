@@ -88,7 +88,7 @@
 
     <CTA />
     <Newsletter />
-    <FooterPage />	
+    <FooterPage />
   </div>
 </template>
 
