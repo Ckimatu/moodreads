@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-white mt-20 mb-30 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+    class="bg-white mt-20 mb-30  rounded-lg shadow dark:bg-black "
   >
     <h1 class="text-xl mt-10 py-15 font-bold text-gray-900 dark:text-white">
       Book Recommendations
