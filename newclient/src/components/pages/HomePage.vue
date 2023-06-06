@@ -35,6 +35,9 @@
                             </button>
                         </div>
                     </form>
+                    <div v-if="showResults">
+              <p class="mt-4 text-gray-500">Getting your book recommendations...</p>
+            </div>
 
                 </div>
                 </div>
@@ -42,18 +45,26 @@
             </div>
 
         </div>
+        <!-- Overlay -->
+    <div v-if="showPopup" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+      <!-- PopUp component -->
+      <PopUp />
+    </div>
 
     </div>
 </template>
 
 
 <script>
+import PopUp from './PopUp.vue';
+
 export default {
     data() {
         return {
             recommendation: '',
             showResults: false,
             results: [],
+            showPopup: false,
         };
     },
     methods: {
@@ -61,6 +72,9 @@ export default {
             const apiUrl = 'https://moodbook.azurewebsites.net/api/BookRecommendations';
 
             try {
+                // Set showPopup to true to display the PopUp component
+          this.showPopup = true;
+                
                 const response = await fetch(apiUrl, {
                     method: 'POST',
                     headers: {
@@ -94,6 +108,11 @@ export default {
                     // Assign the parsed books array to results
                     this.results = books;
                     const resultsJson = JSON.stringify(this.results);
+
+                    
+
+
+
                     // console.log("here is results " + resultsJson);
                     // Navigate to the /results route with the results data as a parameter
                     this.$router.push({ name: 'results', params: { results: resultsJson } });
@@ -104,8 +123,13 @@ export default {
 
             } catch (error) {
                 console.error(error);
+            } finally {
+                this.showResults = false;
             }
         }
+    },
+    components: {
+        PopUp,
     },
 
 };

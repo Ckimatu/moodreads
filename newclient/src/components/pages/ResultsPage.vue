@@ -1,18 +1,21 @@
 <template>
-    <div class="results">
-      <h1>Book Recommendations</h1>
-      <ul>
-        <li v-for="book in books" :key="book.title" class="book">
-          <img :src="book.thumbnail" alt="Book cover" />
-          <div>
-            <h3>{{ book.title }}</h3>
-            <p>By {{ book.authors.join(", ") }}</p>
-            <p>{{ book.description }}</p>
-            <a :href="book.previewLink" target="_blank">Preview</a>
-          </div>
-        </li>
-      </ul>
-    </div>
+<div class="results">
+  <h1>Book Recommendations</h1>
+  <ul class="grid grid-cols-1 gap-4 sm:grid-cols-3 max-w-screen-lg mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <li v-for="book in books" :key="book.title" class="book">
+      <div class="flex items-center">
+        <img :src="book.thumbnail" alt="Book cover" class="w-24 h-32 object-cover rounded-lg">
+        <div class="ml-4">
+          <h3 class="text-lg font-semibold">{{ book.title }}</h3>
+          <p class="text-sm">By {{ book.authors.join(", ") }}</p>
+          <p class="text-sm">{{ book.description }}</p>
+          <a :href="book.previewLink" target="_blank" class="text-blue-500 underline">Preview</a>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+
   </template>
   
   <script>
