@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-black">
+    <div class="bg-black h-screen w-screen">
       
   
       <div class="relative isolate px-6 pt-4 lg:px-8">
