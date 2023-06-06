@@ -1,7 +1,7 @@
 <template>
     <div class="">
        
-        <div class="relative  isolate px-6 mt-10 lg:px-8 ">
+        <div class="relative  isolate px-6  mt-10 mb-20 pb-11 lg:px-8 ">
             <div class="mx-auto max-w-2xl py-5 sm:py-20 lg:py-36">
                 <div class="hidden sm:mb-8 sm:flex sm:justify-center">
                 </div>
