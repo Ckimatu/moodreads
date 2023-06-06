@@ -1,18 +1,30 @@
 <template>
-  <div class=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <h1 class="text-xl font-bold text-gray-900 dark:text-white">Book Recommendations</h1>
+  <div
+    class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+  >
+    <h1 class="text-xl font-bold text-gray-900 dark:text-white">
+      Book Recommendations
+    </h1>
     <ul class="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3 space-y-6">
       <li v-for="book in books" :key="book.title">
-        <a :href="book.previewLink">
-          <img class=" items-center rounded-t-lg" :src="book.thumbnail" alt="" />
+        <a :href="book.previewLink" class="flex justify-center">
+          <img class="rounded-t-lg" :src="book.thumbnail" alt="" />
         </a>
+
         <div class="p-5">
           <a :href="book.previewLink">
-            <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5
+              class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white"
+            >
               {{ book.title }}
             </h5>
           </a>
-          <p class="mb-3 text-gray-700 dark:text-gray-400">{{ book.searchInfo.textSnippet }}</p>
+          <p class="mb-3 text-gray-700 dark:text-gray-400">
+            {{ book.snippet }}
+          </p>
+          <p class="mb-3 text-gray-700 dark:text-gray-400">
+            Author: {{ book.authors }}
+          </p>
           <a
             :href="book.previewLink"
             class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -37,7 +49,6 @@
     </ul>
   </div>
 </template>
-
 
 <script>
 export default {

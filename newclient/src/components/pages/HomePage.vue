@@ -94,7 +94,8 @@ export default {
                                 const bookObj = {
                                     title: book.volumeInfo.title,
                                     authors: book.volumeInfo.authors || [],
-                                    description: book.volumeInfo.searchInfo?.textSnippet || book.volumeInfo.description || '',
+                                    description: book.volumeInfo.description,
+                                    snippet: book.searchInfo?.textSnippet || '',
                                     thumbnail: book.volumeInfo.imageLinks?.thumbnail || 'https://via.placeholder.com/150',
                                     previewLink: book.volumeInfo.previewLink,
                                 };
