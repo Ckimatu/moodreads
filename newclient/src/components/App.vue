@@ -1,19 +1,20 @@
 <template>
+    <Header />
 
     <router-view />
-    <NewsLetter />
+    
     <Footer />
     
 </template>
 
 <script>
 import Footer from './pages/FooterPage.vue'
-import NewsLetter from './pages/NewsLetter.vue';
+import Header from './pages/HeaderPage.vue'
 
 export default {
     components: {
         Footer,
-        NewsLetter
+        Header
     }
 } 
 </script>
