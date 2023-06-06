@@ -1,21 +1,17 @@
 <template>
-  <div
-    class="bg-white mt-20 mb-30  rounded-lg shadow dark:bg-black "
-  >
-    <h1 class="text-xl mt-10 py-15 font-bold text-gray-900 dark:text-white">
-      Book Recommendations
+  <div class="bg-white mt-20 mb-30 rounded-lg shadow dark:bg-black">
+    <h1 class="text-4xl mt-10 py-10 text-center font-bold text-gray-900 dark:text-white">
+      Your Book Recommendations
     </h1>
     <ul class="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3 space-y-6">
-      <li v-for="book in books" :key="book.title">
+      <li v-for="book in books" :key="book.title" class="border border-gray-200 rounded-lg">
         <a :href="book.previewLink" class="flex justify-center">
           <img class="rounded-t-lg" :src="book.thumbnail" alt="" />
         </a>
 
         <div class="p-5">
           <a :href="book.previewLink">
-            <h5
-              class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white"
-            >
+            <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
               {{ book.title }}
             </h5>
           </a>
@@ -49,6 +45,7 @@
     </ul>
   </div>
 </template>
+
 
 <script>
 export default {
