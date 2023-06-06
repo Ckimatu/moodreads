@@ -13,7 +13,7 @@ import Header from './pages/HeaderPage.vue'
 
 export default {
     components: {
-        Footer,
+        
         Header
     }
 } 
