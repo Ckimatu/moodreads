@@ -27,6 +27,7 @@ export default {
 @layer base {
   body {
     @apply text-white;
+    background-color: black;
     background-image: url("../assets/bg.jpg");
     background-repeat: no-repeat;
     background-position: center center;

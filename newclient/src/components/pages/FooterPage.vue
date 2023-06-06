@@ -1,6 +1,6 @@
 <template>
     
-<footer class="relative isolate overflow-hidden bg-gray-900 py-4">
+<footer class="relative isolate overflow-hidden relative isolate overflow-hidden bg-gray-900 py-4">
     <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
