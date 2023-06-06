@@ -1,24 +1,13 @@
 <template>
     <div>
-        <header class="text-white py-1">
-            <nav class="container mx-auto flex items-center justify-between">
-                <div>
-                    <strong class="text-2xl font-normal">mood</strong><strong class="text-2xl font-bold">books</strong>
-                    <!-- <h1 class="text-xl font-bold">moodbooks.</h1> -->
-                </div>
-                <div class="flex items-center space-x-4">
-                    <a href="#" class="text-white hover:text-gray-300 py-1">About</a>
-                    <a href="#" class="text-white hover:text-gray-300 py-1">Contact</a>
-                </div>
-            </nav>
-        </header>
-        <div class="relative isolate px-6 pt-5 lg:px-8">
+       
+        <div class="relative  isolate px-6 mt-10 lg:px-8 ">
             <div class="mx-auto max-w-2xl py-5 sm:py-20 lg:py-36">
                 <div class="hidden sm:mb-8 sm:flex sm:justify-center">
                 </div>
                 <div class="text-center">
-                <!-- <h3>{{ state.message }}</h3> -->
-                <h1 class="text-4xl font-bold tracking-tight text-br sm:text-6xl">Find the perfect book to match your mood!
+                
+                <h1 class="text-4xl font-bold tracking-tight text-br sm:text-6xl mt-14">Find the perfect book to match your mood!
                 </h1>
                 <p class="mt-6 text-lg leading-8 text-gray-300">What are you in the mood for? <br> Don't be afraid to get
                     creative
