@@ -1,8 +1,22 @@
 <template>
 
     <router-view />
+    <NewsLetter />
+    <Footer />
     
 </template>
+
+<script>
+import Footer from './pages/FooterPage.vue'
+import NewsLetter from './pages/NewsLetter.vue';
+
+export default {
+    components: {
+        Footer,
+        NewsLetter
+    }
+} 
+</script>
 
 <style>
 @tailwind base;
