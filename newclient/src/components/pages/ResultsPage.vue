@@ -1,6 +1,6 @@
 <template>
   <div class="bg-black mt-20 mb-30 rounded-lg shadow dark:bg-black">
-    <h1 class="text-4xl mt-10 py-10 text-center font-bold text-gray-900 dark:text-white">
+    <h1 class="text-4xl mt-10 py-10 text-center font-bold text-gray-200 dark:text-white">
       Your Book Recommendations
     </h1>
     <ul class="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3 space-y-6">
@@ -11,14 +11,14 @@
 
         <div class="p-5">
           <a :href="book.previewLink">
-            <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-200 dark:text-white">
               {{ book.title }}
             </h5>
           </a>
-          <p class="mb-3 text-gray-700 dark:text-gray-400">
+          <p class="mb-3 text-gray-400 dark:text-gray-400">
             {{ book.snippet }}
           </p>
-          <p class="mb-3 text-gray-700 dark:text-gray-400">
+          <p class="mb-3 text-gray-400 dark:text-gray-400">
             Author: {{ book.authors }}
           </p>
           <a
