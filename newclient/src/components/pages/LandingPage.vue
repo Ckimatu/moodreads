@@ -30,6 +30,7 @@
       </div>
       
       <CTA />
+      <Newsletter />
     </div>
   </template>
   
@@ -37,6 +38,7 @@
 
   import Features from './FeaturePage.vue'
   import CTA from './CtaPage.vue'
+  import Newsletter from './NewsLetter.vue'
 
 
   
