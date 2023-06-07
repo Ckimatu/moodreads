@@ -33,8 +33,8 @@
         class="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden"
       >
         <img
-          class="w-[30rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-          src="https://res.cloudinary.com/iphurts/image/upload/v1686048664/new_qb7dtu.png"
+          class="w-full max-w-[30rem] h-auto rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:max-w-[57rem]"
+          src="https://images.unsplash.com/photo-1573592371950-348a8f1d9f38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=449&q=80"
           alt=""
         />
       </div>
@@ -89,7 +89,7 @@
               </li>
             </ul>
             <p class="mt-8">
-                Get personalized book recommendations, explore diverse genres  and let your reading mood guide you to extraordinary books that will leave a lasting impact.
+                Get personalized book recommendations, explore diverse genres and let your reading mood guide you to extraordinary books that will leave a lasting impact.
             </p>
             <!--  -->
           </div>

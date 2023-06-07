@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black min-h-screen w-screen sm: pb-19 ">
+  <div class="min-h-screen w-screen sm: pb-19 ">
     <div class="relative  isolate px-6  mt-10 mb-20 pb-11 lg:px-8">
       <div
         class="absolute inset-x-0 -top-30 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -24,22 +24,22 @@
             <a
               href="/home"
               class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >Get Reccomendations</a
+              >Get Recommendations</a
             >
             <!-- <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a> -->
           </div>
         </div>
       </div>
-      <div
-        class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
-        aria-hidden="true"
-      >
-        <div
-          class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
-          style="
-            clip-path: polygon(
-              74.1% 44.1%,
-              100% 61.6%,
+      <!-- <div -->
+        <!-- class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" -->
+        <!-- aria-hidden="true" -->
+      <!-- > -->
+        <!-- <div -->
+          <!-- class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" -->
+          <!-- style=" -->
+            <!-- clip-path: polygon( -->
+              <!-- 74.1% 44.1%, -->
+              <!-- 100% 61.6%,
               97.5% 26.9%,
               85.5% 0.1%,
               80.7% 2%,
@@ -55,9 +55,9 @@
               76.1% 97.7%,
               74.1% 44.1%
             );
-          "
-        />
-      </div>
+          " -->
+        <!-- /> -->
+      <!-- </div> -->
     </div>
     <div id="about">
       <Features />
