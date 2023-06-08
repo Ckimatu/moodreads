@@ -31,7 +31,7 @@
                 <CalendarDaysIcon class="h-6 w-6 text-white" aria-hidden="true" />
               </div>
               <dt class="mt-4 font-semibold text-white">Weekly articles</dt>
-              <dd class="mt-2 leading-7 text-gray-400"> We are committed to delivering a newsletter that is informative, engaging, and respectful of your time and personal space..</dd>
+              <dd class="mt-2 leading-7 text-gray-400"> We are committed to delivering a newsletter that is informative, engaging, and respectful of your time and personal space.</dd>
             </div>
             <div class="flex flex-col items-start">
               <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
