@@ -9,7 +9,7 @@
       </div>
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto max-w-2xl lg:mx-0">
-          <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Ready to discover your next favorite read?</h2>
+          <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Ready to discover your next favourite read?</h2>
           <!-- <p class="mt-6 text-lg leading-8 text-gray-300">Don't be afraid to get creative with your descriptions - the more details you provide, the better we can match you with a book you'll love. -->
 
 <!-- Search -->
