@@ -17,14 +17,18 @@
               Unleash Your Reading Potential:
             </p>
             <h1
-              class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+              class="mt-2 text-xl font-bold tracking-tight text-gray-900 sm:text-4xl"
             >
               Welcome to MoodReads,
             </h1>
-            <p class="mt-6 text-xl leading-8 text-gray-700">
+            <p class="mt-6 text-lg leading-8 text-gray-700">
               your ultimate destination for finding the perfect book to match
-              your mood! Dive into the world of literature and embark on
-              unforgettable reading adventures tailored to your preferences.
+              your mood!
+              <br>
+              As avid readers ourselves, we understand the struggle of
+              finding the ideal book that matches our current mood or desired
+              emotional journey. That's why we developed MoodReads — to assist you
+              in uncovering the literary gems that resonate with your emotions.
             </p>
           </div>
         </div>
@@ -44,9 +48,12 @@
         <div class="lg:pr-4">
           <div class="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
             <p>
+               
               With our innovative book recommendation system powered by OpenAI,
-              you'll discover hidden gems, timeless classics, and captivating
-              stories that resonate with your current state of mind.
+              you'll dive into a curated collection of hidden gems, timeless classics,
+              and captivating stories that truly speak to your state of mind.
+              Experience the joy of personalized book recommendations like never before
+              as you explore new literary horizons.
             </p>
             <ul role="list" class="mt-8 space-y-8 text-gray-600">
               <li class="flex gap-x-3">
@@ -89,7 +96,7 @@
               </li>
             </ul>
             <p class="mt-8">
-                Get personalized book recommendations, explore diverse genres and let your reading mood guide you to extraordinary books that will leave a lasting impact.
+              Say goodbye to the frustration of endlessly searching for the right book and say hello to MoodReads, your personalized gateway to a world of tailored reading experiences.
             </p>
             <!--  -->
           </div>
