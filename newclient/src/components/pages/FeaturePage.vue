@@ -27,7 +27,7 @@
               <br>
               As avid readers ourselves, we understand the struggle of
               finding the ideal book that matches our current mood or desired
-              emotional journey. That's why we developed MoodReads — to assist you
+              emotional journey. That's why we developed MoodReads - to assist you
               in uncovering the literary gems that resonate with your emotions.
             </p>
           </div>
