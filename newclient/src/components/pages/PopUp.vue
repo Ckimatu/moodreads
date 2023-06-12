@@ -21,6 +21,7 @@
                       <!-- Dialog Title -->
                       <DialogTitle as="h3" class="text-base font-semibold leading-6 text-gray-900">Hang On There</DialogTitle>
                       <div class="mt-2">
+                        <!-- Dialog Message -->
                         <p class="text-sm text-gray-500">We understand that anticipation is high, and we want to ensure that your reading experience is exceptional. So sit back, relax, and let us do the hard work for you.</p>
                       </div>
                     </div>
@@ -39,6 +40,6 @@
   import { ref } from 'vue'
   import { Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue'
  
-  
+  // State for dialog open/close
   const open = ref(true)
   </script>
