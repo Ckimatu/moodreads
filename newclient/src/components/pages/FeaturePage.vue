@@ -2,9 +2,10 @@
   <div
     class="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-2 lg:overflow-visible lg:px-0"
   >
-    <div class="absolute inset-0 -z-10 overflow-hidden">
+    <!-- <div class="absolute inset-0 -z-10 overflow-hidden"> -->
    
-    </div>
+    <!-- </div> -->
+    <!-- Background container -->
     <div
       class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10"
     >

@@ -1,18 +1,24 @@
 <template>
     <div class="">
-       
+        
+        <!-- Search Section -->
         <div class="relative  isolate px-6  mt-10 mb-20 pb-11 lg:px-8 ">
             <div class="mx-auto max-w-2xl py-5 sm:py-20 lg:py-36">
                 <div class="hidden sm:mb-8 sm:flex sm:justify-center">
                 </div>
                 <div class="text-center">
                 
+                <!-- Heading -->
                 <h1 class="text-4xl font-bold tracking-tight text-br sm:text-6xl mt-14">Find the perfect book to match your mood!
                 </h1>
+
+                <!-- Description -->
                 <p class="mt-6 text-lg leading-8 text-gray-300">What are you in the mood for? <br> Don't be afraid to get
                     creative
                     with your descriptions - the more details you provide, the better we can match you with a book you'll
                     love.</p>
+                
+                <!-- Search Form -->
                 <div class="mt-10 items-center justify-center">
                     <form @submit.prevent="submitForm">
                         <label for="default-search"
@@ -35,6 +41,8 @@
                             </button>
                         </div>
                     </form>
+
+                    <!-- Overlay -->
                     <div v-if="showResults">
               <p class="mt-4 text-gray-500">Getting your book recommendations...</p>
             </div>
@@ -45,7 +53,8 @@
             </div>
 
         </div>
-        <!-- Overlay -->
+
+    <!-- Overlay -->
     <div v-if="showPopup" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
       <!-- PopUp component -->
       <PopUp />
