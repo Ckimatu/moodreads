@@ -1,16 +1,20 @@
 <template>
   <div class="bg-black mt-20 mb-30 rounded-lg shadow dark:bg-black">
+    <!-- Section Title -->
     <h1 class="text-4xl mt-10 py-10 text-center font-bold text-gray-200 dark:text-white">
       Your Book Recommendations
     </h1>
     <ul class="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3 space-y-6">
+      <!-- Book Item -->
       <li v-for="book in books" :key="book.title" class="border border-gray-200 rounded-lg">
         <a :href="book.previewLink" class="flex justify-center">
+          <!-- Book Thumbnail -->
           <img class="rounded-t-lg" :src="book.thumbnail" alt="" />
         </a>
 
         <div class="p-5">
           <a :href="book.previewLink">
+            <!-- Book Title -->
             <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-200 dark:text-white">
               {{ book.title }}
             </h5>
@@ -25,6 +29,7 @@
             :href="book.previewLink"
             class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
+            <!-- Preview Button -->
             Preview
             <svg
               aria-hidden="true"
@@ -50,17 +55,20 @@
 <script>
 export default {
   props: {
+    // The results data received as a prop
     results: {
       type: String,
       required: true,
     },
   },
   data() {
+    // Array to store book data
     return {
       books: [],
     };
   },
   created() {
+    // Parse the results JSON string and assign it to the books data property
     const resultsJson = this.results;
     this.books = JSON.parse(resultsJson);
   },
