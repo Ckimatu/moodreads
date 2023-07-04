@@ -16,7 +16,7 @@ namespace YourWebApi.Controllers
     {
         // string openAiApiKey = Configuration["OpenAiApiKey"];
         // string googleBooksApiKey = Configuration["GoogleBooksApiKey"]z;
-        private readonly string openAiApiKey = "";
+        private readonly string openAiApiKey = "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";
 
         // "AIzaSyB8sgvGq03w40VlGD0rX4RxyEdCXGazgvI"
         private readonly string googleBooksApiKey = "AIzaSyB8sgvGq03w40VlGD0rX4RxyEdCXGazgvI";
