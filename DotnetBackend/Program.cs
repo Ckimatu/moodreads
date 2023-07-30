@@ -1,3 +1,7 @@
+global using DotnetBackend.Models;
+global using DotnetBackend.Services;
+global using Microsoft.AspNetCore.Builder;
+
 using Microsoft.Extensions.Configuration;
 
 var config = new ConfigurationBuilder()
@@ -11,6 +15,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddScoped<IBookRecommendation, BookRecommendation>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
