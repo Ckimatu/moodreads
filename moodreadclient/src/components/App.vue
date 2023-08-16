@@ -1,18 +1,18 @@
 <template>
-  <Header />
+  <!-- <Header /> -->
   <router-view />
   <Footer />
 </template>
 
 <script>
 
-import Header from '../components/pages/NavBar.vue'
+// import Header from '../components/pages/NavBar.vue'
 import Footer from '../components/pages/footerPage.vue'
 
 export default {
   components: {
 
-    Header,
+    // Header,
     Footer
   }
 } 
