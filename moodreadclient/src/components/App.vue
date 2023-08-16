@@ -33,6 +33,7 @@ export default {
     background-position: center center;
     background-size: cover;
     opacity: 1;
+    height: 100vh;
   }
 }
 </style>
