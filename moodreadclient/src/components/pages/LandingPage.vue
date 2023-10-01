@@ -124,7 +124,7 @@ data() {
   },
     methods: {
     submitSearch() {
-      fetch(`https://moodreadapi.azurewebsites.net/BookDetails/${this.searchQuery}`, {
+      fetch(`https://moodreadapis.azurewebsites.net/BookDetails/${this.searchQuery}`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
